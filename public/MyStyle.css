@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+@font-face { /* Font downloaded from https://www.dafontfree.io/download/tahoma/ */
+	font-family: Tahoma;
+	src: url(Tahoma.ttf);
+}
+
+@font-face { /* Font downloaded from https://www.dafontfree.io/download/tahoma/ */
+	font-family: "TahomaBold";
+	src: url(TAHOMABD.ttf);
+}
+
+body {
+	background-color: #bdb8e9;
+}
+
+h1 { 
+	text-align: center;
+	background-color: #897ee9;
+	font-size: 2.5em;
+	font-family: Merriweather, serif; /* Merriweather font by Sorkin Type from Google Fonts */
+	color: white;
+}
+
+h2 {
+	font-family: "TahomaBold";
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+h3 {
+	font-family: "TahomaBold";
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+h2 a { /*aka the back to home button*/
+	color: white;
+	background-color: #897ee9;
+	padding: 8px 10px;
+	text-decoration: none;
+	transition: background-color 0.5s;
+}
+
+h2 a:hover {
+	background-color: #8558e9;
+}
+
+ul {
+	text-align: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #897ee9;
+	align-content: center;
+	margin-bottom: 8px;
+}
+
+li {
+	float: left;
+	font-family: "Tahoma";
+	font-size: 1.5em;
+	border-right: thin solid #473b63;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 8px 10px;
+	text-decoration: none;
+	transition: background-color 0.5s;
+}
+
+li a:hover {
+	background-color: #8558e9;
+}
+
+@keyframes mymove {
+	to {background-color: #8558e9;}
+}
+
+.active {
+	background-color: #8558e9;
+}
+
+p {
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 1.25em;
+	padding-left: 3vw;
+	padding-right:3vw;
+}
+
+img, iframe {
+	border-style: solid;
+	border-width: 8px;
+	border-color: #897ee9;
+	border-radius: 10px;
+	max-width: 100%;
+}
+
+.clearfix { 
+	overflow: auto;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+figcaption {
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+@media only screen and (orientation: portrait) {
+    h2 {
+    	font-size: 7vw;
+    }
+    h2 a {
+    	display: block;
+    	text-align: center;
+    }
+    li {
+    	font-size: 5vw;
+    }
+    p {
+    	font-size: 5vw;
+  	}
+  	img {
+  		width: 95% !important;
+  		height: auto !important;
+  	}
+  	object {
+  		width: 95% !important;
+  	}
+}
+
+iframe {
+	width: 75%;
+	height: 500px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  border-radius: 10px;
+  background-color: #897ee9;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 50%;
+  margin: 10px;
+  text-align: center;
+  /*font-size: 30px;*/
+}
+div > img{
+	border-width: 0px;
+}
+
+div > p {
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 1em;
+	padding-left: 3vw;
+}
+
+figure {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+/* Website made with the assistance of https://www.w3schools.com/ */
