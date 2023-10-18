@@ -12,16 +12,21 @@
 	<body>
 		<h1>Anne Wu</h1>
 		<h2 class="center">Click below to learn more about me!</h2>
-		<ul>
-			<li><a class="active" href="index.html">Home</a></li>
-			<li><a href="AboutMe.html">About Me</a></li>
-			<li><a href="STEM1.html">STEM I</a></li>
-			<li><a href="STEM2.html">STEM II</a></li>
-			<li><a href="Math.html">Math</a></li>
-			<li><a href="ComputerScience.html">Computer Science</a></li>
-			<li><a href="CommunityService.html">Community Service</a></li>
-			<li><a href="webapps.html">Webapps</a></li>
-		</ul>
+		<div class="navbar">
+			<a class="active" href="index.html">Home</a>
+			<a href="AboutMe.html">About Me</a>
+			<a href="CommunityService.html">Community Service</a>
+			<a href="webapps.html">Webapps</a>
+			<div class="dropdown">
+				<button class="dropbtn">Projects</button>
+				<div class="dropdown-content">
+				  <a href="STEM1.html">Independent Research Project</a>
+				  <a href="STEM2.html">Assistive Technology</a>
+				  <a href="Math.html">HiMCM</a>
+				  <a href="ComputerScience.html">Apps for Good</a>
+				</div>
+			  </div>
+		</div>
 		<img src="images/PictureOfMe.JPG" alt="A picture of Anne Wu" class="center titleimg">
 		<!-- Website made with the assistance of https://www.w3schools.com/-->
 </html>
