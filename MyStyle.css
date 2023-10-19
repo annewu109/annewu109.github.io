@@ -248,8 +248,16 @@ figure {
   }
 
   .appbutton {
-	display: block;
-	padding: 12px 16px;
-	color: plum;
-  }
+	background-color: aquamarine;
+	width: 100px;
+	height: 100px;
+    display: inline-block;
+    margin: 10px;
+	border-radius: 25px;
+	text-align: center;
+	font-size: large;
+}
+.appbutton a {
+	text-decoration: none;
+}
 /* Website made with the assistance of https://www.w3schools.com/ */
